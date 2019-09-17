@@ -153,9 +153,9 @@ body {
 } */
 
 .actualImages > img {
-  width: 400px;
+  width: 425px;
   margin: 0 auto;
-  height: 350px;
+  height: 375px;
   background-Size: 'cover';
   background-Repeat: 'no-repeat';
   background-Position: '50% 50%';
@@ -173,4 +173,6 @@ body {
 
 .modal {
   background-color: var(--blue);
+  border-style: solid;
+  border-width: 5px;
 }
