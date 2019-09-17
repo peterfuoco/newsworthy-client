@@ -42,7 +42,7 @@ class App extends React.Component {
     // }
 
     async getQuestions() {
-      const response = await axios('/questions')
+      const response = await axios('https://newsworthy-api.herokuapp.com/questions')
       const data = response.data;
       this.setState({
         questions: data
