@@ -94,12 +94,12 @@ async doIt (correctAnswer, userAnswer) {
    {
      if(this.state.showQuestionResult){
        return (
-         <h1>CORRECT!</h1>
+         <h1></h1>
 
        )
      } else {
        return (
-         <h1>WRONG</h1>
+         <h1></h1>
        )
      }
    } else {
@@ -149,11 +149,11 @@ async doIt (correctAnswer, userAnswer) {
                   </Button>
                   {this.renderResult()}
                   {
-                    this.state.correctAnswerResult == true ? <p id="correct">TRUE{question.correctExp}</p> :
+                    this.state.correctAnswerResult == true ? <p id="correct">{question.correctExp}</p> :
                     <p></p>
                   }
                   {
-                    this.state.correctAnswerResult == false ? <p id="incorrect">FALSE{question.incorrectExp}</p> :
+                    this.state.correctAnswerResult == false ? <p id="incorrect">{question.incorrectExp}</p> :
                     <p></p>
                   }
                   
