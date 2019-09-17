@@ -1,7 +1,7 @@
 {
   "name": "valyou-client",
   "version": "0.1.0",
-  "proxy": "https://newsworthy-api.herokuapp.com/",
+  "proxy": "https://newsworthy-api.herokuapp.com",
   "private": true,
   "dependencies": {
     "axios": "^0.19.0",
