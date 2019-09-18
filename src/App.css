@@ -138,9 +138,9 @@ body {
 }
 
 .fakeNews {
-  align-content: center;
-  margin: 0 auto;
-  /* margin-left: 25%; */
+  /* align-content: center; */
+  /* margin: 0 auto; */
+  margin-left: 25%;
 }
 /* .trueButton {
   
@@ -165,7 +165,7 @@ body {
   border-width: 5px;
 }
 
-#incorrect > p{
+#incorrect > p {
   font-size: 40px;
 }
 
