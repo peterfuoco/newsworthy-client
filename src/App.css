@@ -140,7 +140,7 @@ body {
 .fakeNews {
   align-content: center;
   margin: 0 auto;
-  margin-left: 25%;
+  /* margin-left: 25%; */
 }
 /* .trueButton {
   
