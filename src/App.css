@@ -189,3 +189,9 @@ body {
 .blue-grey.darken-1 {
   margin-left: 75px;
 }
+
+img {
+  border-style: none;
+  /* margin: 0 auto; */
+  margin-left: 375px;
+}
