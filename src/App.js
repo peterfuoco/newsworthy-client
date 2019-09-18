@@ -67,11 +67,11 @@ class App extends React.Component {
         >
           <button onClick={this.closeModal}>close</button>
           <h2 ref={subtitle => this.subtitle = subtitle}>
-          <img src="https://www.ifla.org/files/assets/hq/topics/info-society/images/how-to-spot-fake-news_440px.jpg"></img>
-          </h2>
           <div className="modal">
-            <img src="https://www.ifla.org/files/assets/hq/topics/info-society/images/how-to-spot-fake-news_440px.jpg"></img>
+          <img src="https://www.ifla.org/files/assets/hq/topics/info-society/images/how-to-spot-fake-news_440px.jpg"></img>
           </div>
+          </h2>
+            <img src="https://www.ifla.org/files/assets/hq/topics/info-society/images/how-to-spot-fake-news_440px.jpg"></img>
          
         </Modal>
             {/* <> */}
