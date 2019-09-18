@@ -139,7 +139,7 @@ async doIt (correctAnswer, userAnswer) {
                     className="trueButton" 
                     title='button' 
                     >
-                  TRUE  
+                  REAL  
                   </Button>
                   <Button onClick={()=> this.doIt(question.answer, false)}
                     className="falseButton" 

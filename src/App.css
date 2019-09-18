@@ -124,7 +124,7 @@ body {
 }
 
 .falseButton {
-  background-color: var(--red);
+  background-color: var(--red)!important;
   margin-left: 70px;
   
 }
@@ -138,11 +138,11 @@ body {
   flex: row;
 }
 
-.fakeNews {
+/* .fakeNews { */
   /* align-content: center; */
   /* margin: 0 auto; */
-  margin-left: 25%;
-}
+  /* margin-left: 25%; */
+/* } */
 /* .trueButton {
   
 } */
