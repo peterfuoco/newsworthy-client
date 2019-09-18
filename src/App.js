@@ -66,9 +66,9 @@ class App extends React.Component {
           contentLabel="Example Modal"
         >
           <button onClick={this.closeModal}>close</button>
-          <h2 ref={subtitle => this.subtitle = subtitle}></h2>
+          <h2 ref={subtitle => this.subtitle = subtitle}>hello</h2>
           <div className="modal">
-            <img className="fakeNews" src="https://www.ifla.org/files/assets/hq/topics/info-society/images/how-to-spot-fake-news_440px.jpg"></img>
+            <img src="https://www.ifla.org/files/assets/hq/topics/info-society/images/how-to-spot-fake-news_440px.jpg"></img>
           </div>
          
         </Modal>
